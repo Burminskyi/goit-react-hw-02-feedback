@@ -21,8 +21,7 @@ export class App extends Component {
   };
 
   handleBtnClick = e => {
-    const name = e.target.name;
-    this.setState(prev => ({ [name]: prev[name] + 1 }));
+    this.setState(prev => ({ [e.target.name]: prev[e.target.name] + 1 }));
   };
 
   render() {
