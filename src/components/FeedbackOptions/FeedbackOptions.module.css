@@ -5,8 +5,8 @@
 }
 .btn {
   width: 70px;
+  cursor: pointer;
   &:hover {
-    cursor: pointer;
     scale: 1.1;
     background-color: greenyellow;
     border: 1px solid black;
